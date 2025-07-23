@@ -77,10 +77,33 @@ nav > ul > li >a{
 
 /* responsive start  */
 
-@media screen and (max-width:576px){
+@media screen and (max-width:376px){
 
     nav{
         width:100%;
+    }
+    nav .logo-image{
+        max-width:50px;
+    }
+
+
+    nav #nav-home, #nav-shop, #nav-about{
+        display:none;
+    }
+
+
+    #nav-cart-link{
+        font-size:0.8rem;
+    }
+}
+
+
+
+@media screen and   (min-width:376px) and (max-width:576px){
+
+    nav{
+        width:100%;
+        
     }
     nav .logo-image{
         max-width:70px;
@@ -99,7 +122,7 @@ nav > ul > li >a{
     }
 
     
-}
+} 
 
 
 
