@@ -364,6 +364,51 @@ nav > ul > li >a{
     margin:28px auto 0px auto;
 }
 
+
+/* main sec reponsive  */
+    .plant-sec{
+        width:90%;
+        margin:0 auto;
+    }
+
+    .section-title{
+        font-size:1.5rem;
+    }
+
+    .para-description{
+        font-size:0.875rem;
+    }
+
+    .section-para{
+        width:92.6%;
+    }
+
+
+    .plant-container{
+        grid-template-columns:repeat(2, 1fr);
+    }
+    
+    .plant-card img{
+        width:100%;
+    }
+
+    .plant-title{
+        font-size:1rem;
+        font-weight:500;
+        
+    }
+
+    .usd-title{
+        font-size:1rem;
+    }
+
+    .btn-primary{
+        font-weight:600;
+        font-size:0.6rem;
+        padding:10px 0px;
+        
+    }
+
     
 } 
 
