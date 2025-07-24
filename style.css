@@ -23,8 +23,6 @@
     padding:0;
 }
 
-body{
-}
 
 
 /* shared styles */
@@ -112,11 +110,18 @@ nav > ul > li >a{
 
     nav{
        width:90%;
-       justify-content:center;
     }
   
     nav .logo-image{
-        max-width:50px;
+        max-width:63px;
+    }
+        
+    nav > ul{
+        align-items:center;
+    }
+
+    nav > ul > li{
+        margin-left:0px;
     }
 
 
@@ -125,9 +130,8 @@ nav > ul > li >a{
     }
 
 
-
     #nav-cart-link{
-        font-size:0.5rem;
+        font-size: 0.81rem;
     }
 
     /* banner responsive  */
@@ -173,13 +177,18 @@ nav > ul > li >a{
         align-items:center;
     }
 
+        nav > ul > li{
+        margin-left:0px;
+    }
+
+
     nav #nav-home, #nav-shop, #nav-about{
         display:none;
     }
 
 
       #nav-cart-link{
-        font-size:0.8rem;
+        font-size:0.81rem;
     }
 
     nav i{
@@ -207,8 +216,8 @@ nav > ul > li >a{
 }
 
 .banner-child{
-    /* width:90%; */
-    margin:28px 16px 0px 16px;
+    width:90%;
+    margin:28px auto 0px auto;
 }
 
     
