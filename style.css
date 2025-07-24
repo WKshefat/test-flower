@@ -23,6 +23,9 @@
     padding:0;
 }
 
+body{
+}
+
 
 /* shared styles */
 
@@ -30,6 +33,11 @@
     display:flex;
 }
 
+
+.para-description{
+    color:rgba(0, 0, 0, 0.5);
+    font-size:1.375rem;
+}
 
 /* header section start  */
 
@@ -39,6 +47,7 @@ nav{
     margin:0 auto;
     justify-content:space-between;
     align-items:center;
+    padding-top:30px;
 }
 
 #nav-home{
@@ -71,17 +80,41 @@ nav > ul > li >a{
 }
 
 
+/* banner section start  */
+
+.banner-container{
+    max-width:1140px;
+    margin:120px auto;
+    align-items: end;
+
+}
+
+
+.banner-title{
+    font-size:4.063rem;
+    font-weight:700;
+}
+
+.banner-title-span{
+    color:#E95A08;
+}
+
+.banner-description{
+    margin-top:13px;
+}
 
 /* header section end  */
 
 
 /* responsive start  */
 
-@media screen and (max-width:376px){
+@media screen and (max-width:403px){
 
     nav{
-        width:100%;
+       width:90%;
+       justify-content:center;
     }
+  
     nav .logo-image{
         max-width:50px;
     }
@@ -92,19 +125,46 @@ nav > ul > li >a{
     }
 
 
+
     #nav-cart-link{
-        font-size:0.8rem;
+        font-size:0.5rem;
     }
+
+    /* banner responsive  */
+
+    .banner-container{
+        flex-direction:column-reverse;
+    }
+    
+    
+    .banner-title{
+        font-size:1.5rem;
+    }
+
+    .banner-image{
+        width:100%;
+    }
+
+    .para-description{
+    font-size:0.875rem;
+}
+
+.banner-child{
+    width:90%;
+    margin:28px auto 0px auto;
+}
+    
 }
 
 
 
-@media screen and   (min-width:376px) and (max-width:576px){
+@media screen and   (min-width:403px) and (max-width:576px){
 
-    nav{
-        width:100%;
-        
+  
+     nav{
+       width:90%;
     }
+  
     nav .logo-image{
         max-width:70px;
     }
@@ -117,12 +177,44 @@ nav > ul > li >a{
         display:none;
     }
 
-    nav i{
-        font-size:1.2rem;
+
+      #nav-cart-link{
+        font-size:0.8rem;
     }
+
+    nav i{
+        font-size:1.1rem;
+    }
+
+        /* banner responsive  */
+
+    .banner-container{
+        flex-direction:column-reverse;
+    }
+    
+    
+    .banner-title{
+        font-size:1.5rem;
+    }
+
+    .banner-image{
+        margin-top:28px;
+        width:100%;
+    }
+
+    .para-description{
+    font-size:0.875rem;
+}
+
+.banner-child{
+    /* width:90%; */
+    margin:28px 16px 0px 16px;
+}
 
     
 } 
+
+
 
 
 
