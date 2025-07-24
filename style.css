@@ -185,7 +185,45 @@ nav > ul > li >a{
 /* plant-section end  */
 
 
+/* plant lover sec satrt  */
 
+
+.plant-lover-container{
+    max-width:1140px;
+    margin:0 auto;
+    gap:60px;
+    align-items:center;
+    position:relative;
+
+    margin-top:175px;
+}
+
+.plant-lover-img{
+    max-width:280px;
+    position:absolute;
+    top:-90px;
+    left:364px;
+}
+
+.plant-lover-img img{
+    width:100%;
+}
+
+
+.plant-lover-box{
+    max-width:540px;
+}
+
+.plant-lover-box > ul {
+    padding-left:36px;
+
+}
+
+.plant-lover-box > ul > li{
+    margin:20px 0px;
+}
+
+/* plant lover sec end  */
 
 
 
@@ -207,6 +245,7 @@ nav > ul > li >a{
 /* main styles end  */
 
 
+/* media query start  */
 /* responsive start  */
 
 @media screen and (max-width:403px){
@@ -304,6 +343,36 @@ nav > ul > li >a{
         padding:10px 0px;
         
     }
+
+    /* plant lover responsive  */
+
+
+    
+    .plant-lover-img{
+        display: none;
+    }
+
+    .plant-lover-container{
+        flex-direction:column;
+        width:90%;
+        margin-top:41px;
+        gap:18px;
+    }
+
+    .plant-lover-image {
+        max-width:358PX;
+    }
+    
+    .plant-lover-image img{
+        width:100%;
+    }
+
+    
+
+    .plant-lover-box > ul{
+        padding-left:25px;
+    }
+
 }
 
 
@@ -343,6 +412,8 @@ nav > ul > li >a{
 
     .banner-container{
         flex-direction:column-reverse;
+        margin:28px auto 65px auto;
+
     }
     
     
@@ -408,6 +479,38 @@ nav > ul > li >a{
         padding:10px 0px;
         
     }
+
+
+    
+    /* plant lover responsive  */
+
+
+    
+    .plant-lover-img{
+        display: none;
+    }
+
+    .plant-lover-container{
+        flex-direction:column;
+        width:90%;
+        margin-top:41px;
+        gap:18px;
+    }
+
+    .plant-lover-image {
+        max-width:558PX;
+    }
+    
+    .plant-lover-image img{
+        width:100%;
+    }
+
+    
+
+    .plant-lover-box > ul{
+        padding-left:25px;
+    }
+
 
     
 } 
